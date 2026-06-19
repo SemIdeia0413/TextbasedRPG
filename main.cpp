@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
-#include <json.hpp>
+#include <string>
+#include <C:\Users\SemIdeia\Documents\Visual Studio Code\Projetos\TextbasedRPG\json.hpp>
 
 using json = nlohmann::json;
 
