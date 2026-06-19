@@ -1,0 +1,79 @@
+{
+    "weapons": [
+        {
+            "name": "Dagger",
+            "damage": 6,
+            "accuracy": 9.8,
+            "critrate": 5.7
+        },
+        {
+            "name": "ShortSword",
+            "damage": 9,
+            "accuracy": 9.4,
+            "critrate": 3.5
+        },
+        {
+            "name": "LongSword",
+            "damage": 12,
+            "accuracy": 9.0,
+            "critrate": 2.5
+        },
+        {
+            "name": "Bat",
+            "damage": 8,
+            "accuracy": 9.6,
+            "critrate": 5.0
+        },
+        {
+            "name": "Bow",
+            "damage": 6,
+            "accuracy": 9.8,
+            "critrate": 5.5
+        },
+        {
+            "name": "Crossbow",
+            "damage": 7,
+            "accuracy": 9.9,
+            "critrate": 6.7
+        },
+        {
+            "name": "MinigunM134",
+            "damage": 16,
+            "accuracy": 7.5,
+            "critrate": 2.7
+        }
+    ],
+
+    
+    "armors": [
+        {
+            "name": "LetherArmor",
+            "defense": 6,
+            "evade": 2.0
+        },
+
+        {
+            "name": "Chainmail",
+            "defense": 9,
+            "evade": 1.8
+        },
+
+        {
+            "name": "IronArmor",
+            "defense": 12,
+            "evade": 1.4
+        },
+
+        {
+            "name": "SteelArmor",
+            "defense": 15,
+            "evade": 1.2
+        },
+
+        {
+            "name": "BulletProofVest",
+            "defense": 10,
+            "evade": 2.8
+        }
+    ]
+}
