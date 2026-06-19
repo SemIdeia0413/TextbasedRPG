@@ -153,14 +153,5 @@ int main() {
 
         cout << "savegame.json created" << endl;
     }
-
-    for (auto& weapon : weaponList) {
-        cout << weapon.name << " | Damage: " << weapon.damage << endl;
-    }
-    cout << endl;
-    for(auto& armor : armorList){
-        cout << armor.name << " | Defense: " << armor.defense << " | Evade: " << armor.evade << endl;
-    }
-
     return 0;
 }
