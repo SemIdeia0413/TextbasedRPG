@@ -1,0 +1,8 @@
+{
+    "name": "Hero",
+    "health": 10,
+    "maxHealth": 10,
+    "endurance": 1,
+    "speed": 1,
+    "strength": 1
+}
