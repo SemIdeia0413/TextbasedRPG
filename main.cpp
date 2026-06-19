@@ -6,6 +6,15 @@
 using namespace std;
 using json = nlohmann::json;
 
+struct Player {
+    string name;
+    int health;
+    int maxHealth;
+    int endurance;
+    int speed;
+    int strength;
+};
+
 struct Weapon {
     string name;
     int damage;
@@ -20,14 +29,6 @@ struct Armor {
     float evade;
 };
 
-struct Player {
-    string name;
-    int health;
-    int maxHealth;
-    int endurance;
-    int speed;
-    int strength;
-};
 
 vector<Weapon> loadWeapons(json& equipmentData){
     vector<Weapon> weaponList;
